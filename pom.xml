@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <parent>
-        <groupId>org.hsweb</groupId>
-        <artifactId>hsweb-framework</artifactId>
-        <version>2.2-SNAPSHOT</version>
+        <groupId>org.axis</groupId>
+        <artifactId>axis-framework</artifactId>
+        <version>2.1.1</version>
     </parent>
     <modules>
-        <module>hsweb-platform-ui-miniui</module>
-        <module>hsweb-platform-run</module>
-        <module>hsweb-platform-workflow-modeler</module>
-        <module>hsweb-platform-generator</module>
+        <module>axis-platform-ui-miniui</module>
+        <module>axis-platform-run</module>
+        <module>axis-platform-workflow-modeler</module>
+        <module>axis-platform-generator</module>
     </modules>
-    <artifactId>hsweb-platform</artifactId>
+    <artifactId>axis-platform</artifactId>
 
     <build>
         <plugins>
@@ -33,18 +33,18 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.hsweb</groupId>
-                <artifactId>hsweb-platform-ui-miniui</artifactId>
+                <groupId>org.axis</groupId>
+                <artifactId>axis-platform-ui-miniui</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.hsweb</groupId>
-                <artifactId>hsweb-platform-workflow-modeler</artifactId>
+                <groupId>org.axis</groupId>
+                <artifactId>axis-platform-workflow-modeler</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.hsweb</groupId>
-                <artifactId>hsweb-platform-generator</artifactId>
+                <groupId>org.axis</groupId>
+                <artifactId>axis-platform-generator</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
