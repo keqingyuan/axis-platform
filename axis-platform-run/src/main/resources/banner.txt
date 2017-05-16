@@ -1,8 +1,10 @@
-${AnsiColor.RED}         _                      _
-        | |__  _____      _____| |__
-        | '_ \/ __\ \ /\ / / _ \ '_ \
-        | | | \__ \\ V  V /  __/ |_) |
-        |_| |_|___/ \_/\_/ \___|_.__/
+${AnsiColor.RED}
+              .__
+_____  ___  __|__| ______
+\__  \ \  \/  /  |/  ___/
+ / __ \_>    <|  |\___ \
+(____  /__/\_ \__/____  >
+     \/      \/       \/
 ${AnsiColor.YELLOW}--------------------start-----------------------
-${AnsiColor.YELLOW}       :: ${AnsiColor.GREEN}Running ${AnsiColor.RED}${hsweb.app.name} ${AnsiColor.YELLOW}(${hsweb.app.version})
+${AnsiColor.YELLOW}       :: ${AnsiColor.GREEN}Running ${AnsiColor.RED}${axis.app.name} ${AnsiColor.YELLOW}(${axis.app.version})
 ${AnsiColor.YELLOW}------------------------------------------------${AnsiColor.WHITE}

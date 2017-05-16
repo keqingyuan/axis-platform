@@ -23,9 +23,9 @@ spring:
 mybatis:
     mapper-locations: classpath:mappers/**/*.xml
     config: classpath:config/mybatis-config.xml
-#    dynamic-datasource: true  #启用mybatis动态数据源
-hsweb:
+    dynamic-datasource: true  #启用mybatis动态数据源
+axis:
     app:
-      name: hsweb-platform
-      version: 2.2.0
+      name: axis-platform
+      version: 2.1.1
       comment: 测试
