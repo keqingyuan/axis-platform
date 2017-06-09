@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cd hsweb-platform-run
+cd axis-platform-run
 ../mvnw spring-boot:run
